@@ -1,16 +1,8 @@
+
+
+
 <?php
-echo "Hello, hi <br> ";
-echo "Hello, hi<br>  ";
-
-$name = "hugo";
-$lastName = "pereira8814";
-
-$age = 21;
-$users = 2;
-
-echo "hi {$name} , {$lastName} <br>";
-echo "<br> $age <br>";
-echo "<br> $age <br>";
+include('header.html');
 ?>
 
 <!DOCTYPE html>
@@ -21,6 +13,12 @@ echo "<br> $age <br>";
     <title>Document</title>
 </head>
 <body>
-    <button>Click</button>
+
+this is the home page
+    
 </body>
 </html>
+
+<?php
+include('footer.html');
+?>
